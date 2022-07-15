@@ -21,6 +21,17 @@ justify-content: center;
 
 }
 
+.navbar{
+
+    font-size: 25px;
+    font-family: robotto;
+    margin-top: -70px;
+    
+}
+
+.nav-link{
+    color: #fff;
+}
 nav{
     width: 100%;
     position: absolute;
@@ -34,8 +45,16 @@ nav{
 }
 
 nav img{
-    height: 120px;
+    height: 300px;
     position: absolute;
+    margin: 20px;
+}
+
+@media screen and (max-width:1000px) {
+    nav img{
+        height: 100px;
+    }
+    
 }
 
 nav ul{
@@ -111,7 +130,8 @@ main a{
 width: 300px;
 height: 300px;
 float: left;
-margin: left 300px;
+margin: 200px;
+border-radius: 20px;
 }
 
 .caja__trasera h3, p{
@@ -126,15 +146,31 @@ footer{
 
 .caja_registro{
   float: left; 
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 20px;
 
 }
 
 .caja_login{
     float: left;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .btn-primary{
     background: black;
+
+}
+
+.foto{
+    width: 20px;
+    position: absolute;
+}
+
+section article h1, h2, h3, p{
+    text-align: center;
+}
+
+section article p{
+    margin: 20%;
+    margin-top: 50px;
 }
